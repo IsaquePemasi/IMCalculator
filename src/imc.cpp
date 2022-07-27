@@ -1,4 +1,5 @@
 #include <iostream>
+#include "imc.h"
 
 void situacao (float imc ){
     if (imc < 17)
@@ -31,23 +32,4 @@ void situacao (float imc ){
     std::cout << "Obesidade 3: morbida" << std::endl;    
     std::cout << "pode apresentar: refluxo infarto, avc e dificuldade de locomocao " << std::endl;    
     }  
-}
-
-
-int main()
-{
-    float altura, peso, imc;
-
-    std::cout << "Digite o seu peso (Kg): " ;
-    std::cin >> peso;
-    std::cout << "Digite a sua altura (metro e centimetro): " ;
-    std::cin >> altura;
-
-    imc = peso /(altura * altura);
-    std::cout << "Seu IMC: " << imc << std::endl;
-
-    situacao(imc);
-
-    system("Pause");
-    return 0;
 }
