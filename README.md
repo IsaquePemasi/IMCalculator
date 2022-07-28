@@ -1,7 +1,6 @@
 <h1>Cálculo IMC</h1>
 <img src = "/img/exemplo-peso-normal.png" alt="peso normal">
 <br>
-<br>
 O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
 <br>
 <br>
@@ -12,7 +11,6 @@ O índice é calculado da seguinte maneira: divide-se o peso do paciente pela su
 <br>
 <br>
 <img src = "/img/exemplo-obeso-morbido.png" alt="obeso-morbido">
-<br>
 <br>
 imc < 17 = Magreza grave: muito abaixo do peso - pode apresentar: insuficiencia cardiaca, anemia grave e enfraquecimento do sistema imunologico
 <br>
