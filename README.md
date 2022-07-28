@@ -6,6 +6,7 @@ IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organiza
 
 O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
 <br>
+<br>
 imc < 17 = Magreza grave: muito abaixo do peso - pode apresentar: insuficiencia cardiaca, anemia grave e enfraquecimento do sistema imunologico
 <br>
 imc > 17 && imc < 18.5 = Magreza leve: abaixo do peso - pode apresentar: problemas de saude ligados a desnutricao
