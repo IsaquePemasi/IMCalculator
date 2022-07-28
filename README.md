@@ -1,5 +1,7 @@
 <h1>Cálculo IMC</h1>
 <img src = "/img/exemplo-peso-normal.png" alt="peso normal">
+<img src = "/img/exemplo-obeso-morbido.png" alt="obeso-morbido"
+
 O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
 <br>
 <br>
