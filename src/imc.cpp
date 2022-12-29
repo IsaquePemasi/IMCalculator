@@ -6,7 +6,18 @@ void situacao (float imc ){
     {
     std::cout << "Magreza grave: muito abaixo do peso" << std::endl;    
     std::cout << "pode apresentar: insuficiencia cardiaca, anemia grave e enfraquecimento do sistema imunologico " << std::endl;    
-
+    std::cout << "           .'|   /`." << std::endl;
+    std::cout << "         .'.-.`-'.-.`." << std::endl;
+    std::cout << "    ..._:   .-. .-.   :_..." << std::endl;
+    std::cout << "  .'    '-.(o ) (o ).-'    `." << std::endl;
+    std::cout << " :  _    _ _`~(_)~`_ _    _  :" << std::endl;
+    std::cout << ":  /:   ' .-=_   _=-. `   ;|  :" << std::endl;
+    std::cout << ":   :|-.._  '     `  _..-|:   :" << std::endl;
+    std::cout << " :   `:| |`:-:-.-:-:'| |:'   :" << std::endl;
+    std::cout << "  `.   `.| | | | | | |.'   .'" << std::endl;
+    std::cout << "    `.   `-:_| | |_:-'   .'" << std::endl;
+    std::cout << "      `-._   ````    _.-'" << std::endl;
+    std::cout << "          ``-------''" << std::endl;
     } else if (imc > 17 && imc < 18.5)
     {
     std::cout << "Magreza leve: abaixo do peso" << std::endl;    
