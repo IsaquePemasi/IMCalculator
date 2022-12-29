@@ -43,9 +43,6 @@ void situacao (float imc ){
     std::cout << "       `Yba,             ,8888888888P``                " << std::endl;
     std::cout << "          `Y8baa,      ,d88888888P``" << std::endl;
     std::cout << "               ````YYba8888P888``" << std::endl;
-
-
-
     }else if (imc > 18.5 && imc < 24.9)
     {
     std::cout << "Eutrofico: peso normal" << std::endl;    
@@ -65,17 +62,41 @@ void situacao (float imc ){
     {
     std::cout << "Sobrepeso: acima do peso" << std::endl;    
     std::cout << "pode apresentar: fadiga, varizes e ma circulacao " << std::endl; 
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;    
+    std::cout << "             .-''''''---.___" << std::endl;
+    std::cout << "           .'               ''-.___" << std::endl;
+    std::cout << "         _'              _'-'''''  '''-   " << std::endl;
+    std::cout << "        /    `        .''              '->" << std::endl;
+    std::cout << "       .    .|     _-'                   '." << std::endl;
+    std::cout << "      .  .''  .   ':         _.------._  ''" << std::endl;
+    std::cout << "     .  -      . .'       .-'  '-   .' ` :" << std::endl;
+    std::cout << "     | '        >       .'.'''`'-   .'`'_'" << std::endl;
+    std::cout << "     |'        <      .'   :__/  : :_.':'" << std::endl;
+    std::cout << "  .--'-._      :   .--:     -._.'  '._.'" << std::endl;
+    std::cout << " '>      '.     '. | '              .' :" << std::endl;
+    std::cout << "'.        :'     '-'.____        .__.  '" << std::endl;
+    std::cout << " /         :             :.          .'" << std::endl;
+    std::cout << " `.       /              | ''-_  __-'" << std::endl;
+    std::cout << "   `.'-'''         .''':''    :-'''''." << std::endl;
+    std::cout << "                  :   :               ." << std::endl;
+    std::cout << "                  |  :                :" << std::endl;
+    std::cout << "                  | :           .''.  :" << std::endl;
+    std::cout << "                  |.'.        _.:   '.:" << std::endl;
+    std::cout << "                  |    '---'''  :    :'" << std::endl;
+    std::cout << "                  |     '      :     :" << std::endl;
+    std::cout << "                  .'.___:._   .'    ." << std::endl; 
+    std::cout << "                   .  '    '''.     '" << std::endl;
+    std::cout << "                   |   :      '    :" << std::endl;
+    std::cout << "                   :    .    :    ' :" << std::endl;
+    std::cout << "     _.-'''--..__   :   : . :    .  _:" << std::endl;
+    std::cout << "  .'      .       '-:   :   '   ..-'  :" << std::endl;
+    std::cout << " (         '-       :   :._:   /   _.--'''--._" << std::endl;
+    std::cout << "  '          '. _....:  : .   / .-'           '." << std::endl;
+    std::cout << "   '           :  .'' '''-'  /-'               ) "<< std::endl;
+    std::cout << "    '._        :  :     ..-'                  /" << std::endl;
+    std::cout << "       '-._     `'' _ .''''''''-.         _.-" << std::endl;
+    std::cout << "          .'...__ .' '           . ____..'" << std::endl; 
+    std::cout << "         :         '':-.._______.'" << std::endl;
+    std::cout << "          '-.....-'''               " << std::endl;   
     }else if (imc > 30 && imc < 34.9)
     {
     std::cout << "Obesidade 1" << std::endl;    
