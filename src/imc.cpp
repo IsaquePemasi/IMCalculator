@@ -4,8 +4,25 @@
 void situacao (float imc ){
     if (imc < 17)
     {
+    std::cout << ""<< std::endl;
     std::cout << "Magreza grave: muito abaixo do peso" << std::endl;    
-    std::cout << "pode apresentar: insuficiencia cardiaca, anemia grave e enfraquecimento do sistema imunologico " << std::endl;    
+    std::cout << "Pode apresentar: insuficiencia cardiaca, anemia grave e enfraquecimento do sistema imunologico " << std::endl;    
+    std::cout << " +--^----------,--------,-----,--------^-," << std::endl;
+    std::cout << " | |||||||||   `--------'     |          O" << std::endl;
+    std::cout << " `+---------------------------^----------|" << std::endl;
+    std::cout << "   ``_,---------,---------,--------------'" << std::endl;
+    std::cout << "     / XXXXXX /'|       /'" << std::endl;
+    std::cout << "    / XXXXXX /  ``    /'" << std::endl;
+    std::cout << "   / XXXXXX /`-------'" << std::endl;
+    std::cout << "  / XXXXXX /" << std::endl;
+    std::cout << " / XXXXXX /   " << std::endl;
+    std::cout << "(________(                " << std::endl;
+    std::cout << " `------'              " << std::endl;
+    } else if (imc > 17 && imc < 18.5)
+    {
+    std::cout << ""<< std::endl;
+    std::cout << "Magreza leve: abaixo do peso" << std::endl;    
+    std::cout << "Pode apresentar: problemas de saude ligados a desnutricao " << std::endl;  
     std::cout << "           .'|   /`." << std::endl;
     std::cout << "         .'.-.`-'.-.`." << std::endl;
     std::cout << "    ..._:   .-. .-.   :_..." << std::endl;
@@ -18,10 +35,148 @@ void situacao (float imc ){
     std::cout << "    `.   `-:_| | |_:-'   .'" << std::endl;
     std::cout << "      `-._   ````    _.-'" << std::endl;
     std::cout << "          ``-------''" << std::endl;
-    } else if (imc > 17 && imc < 18.5)
+    }else if (imc > 18.5 && imc < 24.9)
     {
-    std::cout << "Magreza leve: abaixo do peso" << std::endl;    
-    std::cout << "pode apresentar: problemas de saude ligados a desnutricao " << std::endl;  
+    std::cout << ""<< std::endl;
+    std::cout << "Eutrofico: peso normal" << std::endl;    
+    std::cout << "Saudavel  " << std::endl;
+    std::cout << "                     $$$$$$$$$$$$$$$$$$$$$$" << std::endl;
+    std::cout << "                  $$$$$$$$$$$$$$$$$$$$$$$$$$$$" << std::endl;
+    std::cout << "                  $$$$$$$$$$$$$$$$$$$$$$$$$$$$" << std::endl;
+    std::cout << "                $$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$" << std::endl;
+    std::cout << "               $$$$$$$$$$$$$$  $$$$$$$  $$   $ $$$$" << std::endl;
+    std::cout << "             $$$$$$$$$$$   $$   $$$  $$  $   $  $$$$" << std::endl;
+    std::cout << "            $$$$%$$$  $ $   $$   $$$  $  $   $$ $ $$" << std::endl;
+    std::cout << "           $$$$%%$$$   $ $   $$   $$$  $  $$  $ $ $$$" << std::endl;
+    std::cout << "          $$$$$%%$$$$  $ $    $    $$  $  $$$ $ $$ $$$$" << std::endl;
+    std::cout << "         $$$$$%%%$$$$$ $$$$   $  $ $$   $ $$$$$ $$ $$$$$" << std::endl;
+    std::cout << "        $$$$$$%%%$$$$$$$$$$$  $$ $ $$$$ $ $$$$$$$$$$$$$$$$" << std::endl;
+    std::cout << "       $$$$$$%%%$$$$$$$$$$$$$$$ $$$$$$ $$$$$$$$$$$$$$$$$$$" << std::endl;
+    std::cout << "      $$$$$$%%%$$%%%%%%$$$$$$$$$$$$$$$ $$$$$$$$$   $$$$$$$$" << std::endl;
+    std::cout << "      $$$$$$%%$$%%%%%%%%%$$$$$$$$$$$$$ $$$$$$$     $$$$%$$$" << std::endl;
+    std::cout << "      $$$$$$%$$%%%%%%%%%%%$$$$$$$$$$$$$$$$$        $$$$%%$$$" << std::endl;
+    std::cout << "      $$$$$$$$%%%%%%%%%%%%%$$$$$$$$$$$             $$$$%%$$$" << std::endl;
+    std::cout << "     $$$$$$$%%%            $$$$$$$$                 $$$%%$$$" << std::endl;
+    std::cout << "     $$$$$$%%%                                      $$$%%$$" << std::endl;
+    std::cout << "     $$$$$$%%%                                      $$$%%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                    % $$$%%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                    %  $$%%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                    %  $$%%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                   %%  $$$%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                  %%%  $$$%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                   %%  $$$%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                   %%  $$$%$$" << std::endl;
+    std::cout << "     $$$$$%%%%                                   %%  $$$%$$" << std::endl;
+    std::cout << "      $$$$%%%%                             $$$$  %% $$$$%$$" << std::endl;
+    std::cout << "     $ $$$%%%% $$$$$$$$$                $$$$$$$$$%% $$$$$$$" << std::endl;
+    std::cout << "    $$$ $$%%%  $$$$$$$$$$              $$$$$$$$$$$%% $$$$$$" << std::endl;
+    std::cout << "    $$$$  %%%          $$$           $$$$       $$%% $$$$$$" << std::endl;
+    std::cout << "    $$$$$$%%%    $$$$$ $$$$         $$$$$$$$$$   $%% $$$$$$" << std::endl;
+    std::cout << "     $$$$ %%%  $$$     $$$$$       $$$$$$    $$$  %%% $$$$$" << std::endl;
+    std::cout << "     $$$$     $$$$$$$$$ $$$$      $$$$$$$$$$$$$$   %  $$$$$" << std::endl;
+    std::cout << "     $$$$     $$$  $ $$  $$$$    $$$$$$  $ $  $$      $$$$" << std::endl;
+    std::cout << "     $$$$      $   $$$ %%%$$$         %% $$$          $$$$" << std::endl;
+    std::cout << "     $$$$             %%%% $$         %%%%%%  %%%     $$$$" << std::endl;
+    std::cout << "      $$$$      %%% %%%%%   $           %%%%%%%       $$$$" << std::endl;
+    std::cout << "      $$$$        %%%%%    $$             %%%         $$ $" << std::endl;
+    std::cout << "      $$ $          %%     $                          $ $$" << std::endl;
+    std::cout << "      $ $$                 $                          $  $" << std::endl;
+    std::cout << "      $ $$  $             %$                         $$  $" << std::endl;
+    std::cout << "      $  $  $            %%$                          $$$$" << std::endl;
+    std::cout << "       $$$  $$         $ %%%                       $ $ $$" << std::endl;
+    std::cout << "        $$  $$        $ %%%%          $ $$$       $$ $" << std::endl;
+    std::cout << "         $ $$$     $$  %%%%        $$$  $$$     $$$ $" << std::endl;
+    std::cout << "         $ $$$    $$  %%%$$$     $$$$    $$$$  $$$$ $" << std::endl;
+    std::cout << "         $$$$$$$$$$   $$$$$$$$$$$$$$      $$$$$$$$$ $" << std::endl;
+    std::cout << "          $$$$$$$   $$$$$$$$$$$$$$         $$$$$$$$ $" << std::endl;
+    std::cout << "          $$$$$$ %%$$$$$$$$$$$$$$      $$$$$$$$$$$$$$" << std::endl;
+    std::cout << "          $$$ $$  %$$$$$$$$$$      $$$$$$$$$    $$$$" << std::endl;
+    std::cout << "           $$  $   $$$$     $$$$$$$$    $$      $$$" << std::endl;
+    std::cout << "           $$  $   %$$$$               $$      $$$$" << std::endl;
+    std::cout << "            $  $   %%%%$$$ $$$$$$$$$$$$$       $$$" << std::endl;
+    std::cout << "            $$ $$   %%%%             $$       $$$$" << std::endl;
+    std::cout << "            $$ $$    %%$$$$ $$$$$$$$$$        $$$" << std::endl;
+    std::cout << "             $  $    $$$$$%%%%%%%%%%         $$$$" << std::endl;
+    std::cout << "             $$ $$  $$$$$%%%                 $$$" << std::endl;
+    std::cout << "              $  $ $$$$ %%%%%%%%%%%%%%      $$$" << std::endl;
+    std::cout << "              $$  $$$$  %%%%%%%%%%%%%       $$$" << std::endl;
+    std::cout << "     $$$       $ $$$$   $%%%%              $$$" << std::endl;
+    std::cout << "   $$   $$      $$$$$  $$$$               $$$" << std::endl;
+    std::cout << "  $  $$  $$   $$$$$$   $$$                $$$" << std::endl;
+    std::cout << " $ $$$$  $$  $$$$$$   $$$$               $$$" << std::endl;
+    std::cout << "$  $$$  $$$ $$$$$$ $$$$$$$              $$$" << std::endl;
+    std::cout << "$      $$$$$$$$$$   $$$$$$             $$$" << std::endl;
+    std::cout << "$  $$   $$$$$$$$     $$$$$$$$$$$$$$$  $$$" << std::endl;
+    std::cout << "$$$$$   $$$$$$$       $$$$$$$$$$$$$$$$$$" << std::endl;
+    std::cout << "$$$$$$   $$$$$                  $$$$$$" << std::endl;
+    std::cout << " $$$$$   $$$$" << std::endl;
+    std::cout << " $$$$$$  $$$" << std::endl;
+    std::cout << "  $$$$$  $$$" << std::endl;
+    std::cout << "   $$$$$$$$" << std::endl;
+    std::cout << "    $$$$$$" << std::endl;         
+    }else if (imc > 25 && imc < 29.9)
+    {
+    std::cout << ""<< std::endl;
+    std::cout << "Sobrepeso: acima do peso" << std::endl;    
+    std::cout << "Pode apresentar: fadiga, varizes e ma circulacao " << std::endl; 
+    std::cout << "                             ################    #########" << std::endl;
+    std::cout << "                           ################### ##############" << std::endl;
+    std::cout << "                         ################################# #####" << std::endl;
+    std::cout << "                       ################################### ###  #" << std::endl;
+    std::cout << "                    ####################################### ###  '" << std::endl;
+    std::cout << "                   ######################################### ####" << std::endl;
+    std::cout << "                 ############################################  ######" << std::endl;
+    std::cout << "                ###############################################   #  #" << std::endl;
+    std::cout << "              ###################################################   #  #" << std::endl;
+    std::cout << "             #####################################################   #   #" << std::endl;
+    std::cout << "            #######################################################   #    #" << std::endl;
+    std::cout << "           #########################################################   #     #" << std::endl;
+    std::cout << "          ###########################################################    #    #" << std::endl;
+    std::cout << "         ########################  ######### # # # #  ################     #   #" << std::endl;
+    std::cout << "        ########################  # #######  # # # #   ################     #   #" << std::endl;
+    std::cout << "       ########################  # ## ####   # # # #   # ##############      #  #" << std::endl;
+    std::cout << "      ########################  # ## ## ##  #  # # #   # ## #### # #####      # '" << std::endl;
+    std::cout << "     #########################  # # # ## #  ' # #  #  #  ## #### # ######      #" << std::endl;
+    std::cout << "    # ########################   # ## ## #   # #  #  #  ## ####  # #######      #" << std::endl;
+    std::cout << "   #   ######################    # #  # # .  ' #  #  '  # # # # . # #######     '" << std::endl;
+    std::cout << "  ##   ######################   # #  # #  A   #  #     # # # #  A # ########" << std::endl;
+    std::cout << " #    #######################   ##  #  # .$. #  #     # # # #   $ #  ########" << std::endl;
+    std::cout << "#     #######################   #  #  # .$$$.# #      ##  ' '  .$.#  #########" << std::endl;
+    std::cout << "'     ## ####################   '  ' .s$$$$$$$$$$S.   ''     .s$$$.  #########" << std::endl;
+    std::cout << "    ## #####################     .sS$$$$$$$$$$$$$$$'     .sS$$$$$$s. ###### ### " << std::endl;
+    std::cout << "   ##  ####################     $$$$$$$$.-'""'-$$$.      ;$$$.-.$$$$$s##### ####" << std::endl;
+    std::cout << "   '  #####################      `$$'$$$/ () ` `.$$       ;$/() ``$$$####### ###" << std::endl;
+    std::cout << "      #####################         $$$$Ss...sS$$$$        ;Ss...sS$ ########  ##" << std::endl;
+    std::cout << "     ######################         `$$$$$$$$$$$$$'        .$$$$$$$$ ########   # " << std::endl;
+    std::cout << "    #######################           `$$$$$$$$$'          `$$$$$$$' ### ####    `" << std::endl;
+    std::cout << "   ######################## `.           `$$$$'             `$$$$$'  #### ###" << std::endl;
+    std::cout << "  #########################   .            $'                `.`$'   ##### ##" << std::endl;
+    std::cout << " ###########################  :            $                  ; $    ###### ##" << std::endl;
+    std::cout << "###########################                V      :           ; V    ####### #" << std::endl;
+    std::cout << "#### ######################    `           '      `._''`.   .'  '   #########'" << std::endl;
+    std::cout << "##   ######################                              `-'  .     ##########" << std::endl;
+    std::cout << "#   #######################                  .                `.   ######### ##" << std::endl;
+    std::cout << "#  ########################                 '                  .   ######### ###" << std::endl;
+    std::cout << "'  ########################                ;       _.----._    `   ########## ##" << std::endl;
+    std::cout << "  ##########################               '  _.-'T~T~T~T~T`.     ############ ##" << std::endl;
+    std::cout << " ############################`.             .$$`""""------""' $  ######### ### ##" << std::endl;
+    std::cout << " ## #########################  `.         .$'   `-._     _.-' $ ########## #### #" << std::endl;
+    std::cout << " ## ##########################   `.       $'        """"""'   $ ########## #### #" << std::endl;
+    std::cout << " # ###########################     `.    $                    $########### #### `" << std::endl;
+    std::cout << " '############################       `.  $'                   ############ ###   " << std::endl;
+    std::cout << " # ############################        `._                  .'###  #### ## ###" << std::endl;
+    std::cout << " '  ############### ############         `.                .'  #   #### ## ##" << std::endl;
+    std::cout << "  ################# # ############         `-._       __..-'   #    ### ##  #" << std::endl;
+    std::cout << "   # ## # # ### ##  # ## #########             `'''''.'       #    ### ##  '" << std::endl;
+    std::cout << "   # #  # # ##  #   # ##  ###### ##                 .' `-.._   #     ## #" << std::endl;
+    std::cout << "   # #  ##   #  #   #  #   #####  #                 ;        `-.     #  #" << std::endl;
+    std::cout << "   .-'  ''   #  '   #  '    ####  #                :             `-. #  '" << std::endl;
+    std::cout << " .'          '      '        # #  .                :                `-.  " << std::endl;
+    }else if (imc > 30 && imc < 34.9)
+    {
+    std::cout << ""<< std::endl;
+    std::cout << "Obesidade 1" << std::endl;    
+    std::cout << "Pode apresentar: diabetes, infarto, angina e aterosclerose " << std::endl;
     std::cout << "               ,,ggddY888Ybbgg,," << std::endl;
     std::cout << "          ,agd8""'   .d8888888888bga," << std::endl;
     std::cout << "       ,gdP""'     .d88888888888888888g," << std::endl;
@@ -43,25 +198,11 @@ void situacao (float imc ){
     std::cout << "       `Yba,             ,8888888888P``                " << std::endl;
     std::cout << "          `Y8baa,      ,d88888888P``" << std::endl;
     std::cout << "               ````YYba8888P888``" << std::endl;
-    }else if (imc > 18.5 && imc < 24.9)
+    }else if (imc > 35 && imc < 39.9)
     {
-    std::cout << "Eutrofico: peso normal" << std::endl;    
-    std::cout << "Saudavel  " << std::endl;
-    std::cout << " +--^----------,--------,-----,--------^-," << std::endl;
-    std::cout << " | |||||||||   `--------'     |          O" << std::endl;
-    std::cout << " `+---------------------------^----------|" << std::endl;
-    std::cout << "   ``_,---------,---------,--------------'" << std::endl;
-    std::cout << "     / XXXXXX /'|       /'" << std::endl;
-    std::cout << "    / XXXXXX /  ``    /'" << std::endl;
-    std::cout << "   / XXXXXX /`-------'" << std::endl;
-    std::cout << "  / XXXXXX /" << std::endl;
-    std::cout << " / XXXXXX /   " << std::endl;
-    std::cout << "(________(                " << std::endl;
-    std::cout << " `------'              " << std::endl;    
-    }else if (imc > 25 && imc < 29.9)
-    {
-    std::cout << "Sobrepeso: acima do peso" << std::endl;    
-    std::cout << "pode apresentar: fadiga, varizes e ma circulacao " << std::endl; 
+    std::cout << ""<< std::endl;
+    std::cout << "Obesidade 2: severa" << std::endl;    
+    std::cout << "Pode apresentar: falta de ar e apneia do sono " << std::endl;
     std::cout << "             .-''''''---.___" << std::endl;
     std::cout << "           .'               ''-.___" << std::endl;
     std::cout << "         _'              _'-'''''  '''-   " << std::endl;
@@ -97,50 +238,27 @@ void situacao (float imc ){
     std::cout << "          .'...__ .' '           . ____..'" << std::endl; 
     std::cout << "         :         '':-.._______.'" << std::endl;
     std::cout << "          '-.....-'''               " << std::endl;   
-    }else if (imc > 30 && imc < 34.9)
-    {
-    std::cout << "Obesidade 1" << std::endl;    
-    std::cout << "pode apresentar: diabetes, infarto, angina e aterosclerose " << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;    
-    }else if (imc > 35 && imc < 39.9)
-    {
-    std::cout << "Obesidade 2: severa" << std::endl;    
-    std::cout << "pode apresentar: falta de ar e apneia do sono " << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;     
     }else if (imc > 40)
     {
+    std::cout << ""<< std::endl;
     std::cout << "Obesidade 3: morbida" << std::endl;    
-    std::cout << "pode apresentar: refluxo infarto, avc e dificuldade de locomocao " << std::endl; 
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;
-    std::cout << "" << std::endl;   
+    std::cout << "Pode apresentar: refluxo infarto, avc e dificuldade de locomocao " << std::endl; 
+    std::cout << "              *         *      *         *" << std::endl;
+    std::cout << "          ***          **********          ***" << std::endl;
+    std::cout << "       *****           **********           *****" << std::endl;
+    std::cout << "     *******           **********           *******" << std::endl;
+    std::cout << "   **********         ************         **********" << std::endl;
+    std::cout << "  ****************************************************" << std::endl;
+    std::cout << " ******************************************************" << std::endl;
+    std::cout << "********************************************************" << std::endl;
+    std::cout << "********************************************************" << std::endl;
+    std::cout << "********************************************************" << std::endl;
+    std::cout << " ******************************************************" << std::endl;
+    std::cout << "  ********      ************************      ********" << std::endl;
+    std::cout << "   *******       *     *********      *       *******" << std::endl;
+    std::cout << "     ******             *******              ******" << std::endl;
+    std::cout << "       *****             *****              *****" << std::endl;
+    std::cout << "          ***             ***              ***" << std::endl;
+    std::cout << "            **             *              **" << std::endl;
     }  
 }
