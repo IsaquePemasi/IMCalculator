@@ -14,16 +14,16 @@ O índice é calculado da seguinte maneira: divide-se o peso do paciente pela su
 <br>
 <img src = "/img/exemplo-obeso-morbido.png" alt="obeso-morbido">
 <br>
-imc < 17 = Magreza grave: muito abaixo do peso - pode apresentar: insuficiencia cardiaca, anemia grave e enfraquecimento do sistema imunologico
+imc < 17 = Magreza grave: muito abaixo do peso - pode apresentar: insuficiência cardíaca, anemia grave e enfraquecimento do sistema imunológico.
 <br>
-imc > 17 && imc < 18.5 = Magreza leve: abaixo do peso - pode apresentar: problemas de saude ligados a desnutricao
+imc > 17 && imc < 18.5 = Magreza leve: abaixo do peso - pode apresentar: problemas de saúde ligados a desnutrição.
 <br>
-imc > 18.5 && imc < 24.9 = Eutrofico: peso normal - Saudavel
+imc > 18.5 && imc < 24.9 = Eutrófico: peso normal - Saudável.
 <br>
-imc > 25 && imc < 29.9 = Sobrepeso: acima do peso - pode apresentar: fadiga, varizes e ma circulacao
+imc > 25 && imc < 29.9 = Sobrepeso: acima do peso - pode apresentar: fadiga, varizes e má circulação.
 <br>
-imc > 30 && imc < 34.9 = Obesidade 1 - pode apresentar: diabetes, infarto, angina e aterosclerose
+imc > 30 && imc < 34.9 = Obesidade 1 - pode apresentar: diabetes, infarto, angina e aterosclerose.
 <br>
-imc > 35 && imc < 39.9 = Obesidade 2: severa - pode apresentar: falta de ar e apneia do sono 
+imc > 35 && imc < 39.9 = Obesidade 2: severa - pode apresentar: falta de ar e apneia do sono.
 <br>
-imc > 40 = Obesidade 3: morbida - pode apresentar: refluxo infarto, avc e dificuldade de locomocao
+imc > 40 = Obesidade 3: mórbida - pode apresentar: refluxo infarto, AVC e dificuldade de locomoção.
