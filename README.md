@@ -1,5 +1,5 @@
 <h1>Cálculo IMC</h1>
-<h2>Download</h2> - https://github.com/IsaquePemasi/IMCalculator/raw/master/imc-main.exe
+<h2>Download - https://github.com/IsaquePemasi/IMCalculator/raw/master/imc-main.exe</h2> 
 <img src = "/img/exemplo-peso-normal.png" alt="peso normal">
 <br>
 O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
