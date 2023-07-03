@@ -25,3 +25,5 @@ imc > 30 && imc < 34.9 = Obesidade 1 - pode apresentar: diabetes, infarto, angin
 <br>
 bmi > 35 && bmi < 39.9 = Obesity 2: severe - may present: shortness of breath and sleep apnea.<br>
 bmi > 40 = Obesity 3: morbid - may present: reflux, infarction, stroke and difficulty in locomotion.
+<h2 align="center">Autor</h2>
+<a href="https://github.com/IsaquePemasi/"><img src="https://avatars.githubusercontent.com/u/76749511?v=4" width=115></a>
