@@ -1,5 +1,4 @@
 <h1>BMI calculation</h1>
-<br>
 Video link on youtube - https://www.youtube.com/watch?v=YwKXLdqjUeg
 <h2>Download: https://github.com/IsaquePemasi/IMCalculator/raw/master/imc-main.exe</h2> 
 <br>
